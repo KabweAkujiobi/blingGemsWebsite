@@ -1,0 +1,59 @@
+<?php
+
+session_start();
+
+$connect = mysqli_connect("127.0.0.1:3325", "root", "", "bling_gems");
+
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--the meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Kabwe Oluchi Akujiobi">
+        <title>GEMSTONES | Bling Gems</title>
+        <!--linking the external css-->
+        <link rel ="stylesheet" href ="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class = "container">
+                <div id = "branding">
+                    <img src="../images/logo/blingGemsBlack.png"/>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href ="../home.php">HOME</a></li>
+                        <li><a href = "../services.html">SERVICES</a></li>
+                        <li><a href = "../about.html">ABOUT</a></li>
+                        <li><a href = "../contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div id = "icons">
+                    <img src="../images/icons/cart.png">CART(0) </img>
+                    <img src="../images/icons/favorites.png">FAVORITES(0)</img>
+                    
+                </div>
+            </div>
+        </header>
+
+         <!--the proucts link-->
+         <section id = "products">
+            <div class = "categories">
+                <ul>
+                    <li><a href ="bracelets.php">BRACELETS</a></li>
+                    <li><a href ="earrings.php">EARRINGS</a></li>
+                    <li  class="current"><a href ="#">GEM STONES</a></li>
+                    <li><a href ="necklaces.html">NECKLACES</a></li>
+                    <li><a href ="ring.html">RINGS</a></li>
+                </ul>
+            </div>
+        </section>
+
+         <!--the section to display latest products-->
+         <section id="latest">
+            
+         </section>
+    </body>
+</html>

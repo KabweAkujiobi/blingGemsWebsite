@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 15;
+    padding: 0;
+    margin: 0;
+    background-color:#f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: #ffffff;
+    color:#000000;
+    padding-top: 30px;
+    padding-bottom: 30px;;
+    min-height: 70px;
+}
+
+header a{
+    color:#000000;
+    text-decoration: none;
+    font-size:16px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+header li{
+    
+    display:inline;
+    padding: 0 10px 0 10px;
+}
+
+header #branding{
+    float:center;
+    padding-left:490px;
+}
+
+header #icons{
+    float: right;
+    padding-left: 100px;
+}
+header #icons img{
+    padding: 0 10px 0 10px;
+    display: inline;
+    padding-top: 0px;
+    
+}
+
+header #branding img{
+    margin:0;
+    height: 100px;
+    width: 150px;
+}
+
+header nav{
+    float:left;
+    margin-top: 10px;
+}
+header .highlight, header .current{
+    color:#424040;
+    font-weight: bold;
+}
+
+header a:hover{
+   
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#products{
+    background-color: #000000;
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    height:50px;
+}
+
+#products .categories li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#products .categories li a {
+    text-decoration: none;
+    color:#cccccc;
+    font-size: 16px;
+}
+
+#products a:hover{
+
+    text-decoration: underline;
+    font-weight: bold;
+}
