@@ -1,21 +1,21 @@
 # Bling Gems E-Commerce Website
 
 ## Project Description:
-Bling Gems is a e-commerce website that sells gem stones and various types of jewellery. It has a minimalistic design with a professional finish. The website has basic functionalities of a e-commerce site. 
+Bling Gems is an e-commerce website that sells gemstones and various types of jewellery. It has a minimalistic design with a professional finish. The website has the basic functionalities of an e-commerce site. 
 
 ## Project Objectives:
-- Bling Gems will have a website for it to be accessible from anywhere on different
+- Bling Gems will have a website that is accessible from anywhere on different
 platforms.
-- Bling Gems will have a website which will have all necessary information about
+- Bling Gems will have a website which will have all the necessary information about
 prices, promotions and new products.
-- Bling Gems will have a website where-by customers can purchase items or create a
+- Bling Gems will have a website where customers can purchase items or create a
 wish list.
 - Bling Gems will need a website which is user-friendly and attractive for their
 customers thus creating the best customer experience.
 - By having a website Bling Gems transactions and business functions will be more
 efficient and effective for the business.
 - By developing a website for Bling Gems will have a section whereby customers will
-be able to design their jewelry. 
+be able to design their jewellery. 
 
 ## Project Languages used:
 - HTML
